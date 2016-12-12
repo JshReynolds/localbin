@@ -8,3 +8,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 mv ~/.zshrc ~/.zshrc.bak
 ln -s ~/etc/shell/zshrc ~/.zshrc
+
+ln -s ~/etc/vim/vimrc ~/.vimrc
+ln -s ~/etc/vim/vim ~/.vim
