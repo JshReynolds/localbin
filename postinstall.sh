@@ -35,4 +35,8 @@ cd
 defaults write -g ApplePressAndHoldEnabled -bool false
 
 # set a sensible name
-sudo scutil --set HostName laptop
+read -p "Enter a name for your computer:" name 
+
+sudo scutil --set HostName $name
+sudo scutil --set LocalHostName $name
+sudo scutil --set ComputerName $name
