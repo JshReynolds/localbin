@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/zsh
 
 #Install the latest version of node
 . ~/etc/env/enabled/04-nodenv
